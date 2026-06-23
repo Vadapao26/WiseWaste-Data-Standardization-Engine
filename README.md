@@ -37,3 +37,17 @@ Analytics       Analytics      Analytics
   ↓                 ↓              ↓
 Excel           Excel (.xlsx)  Inline
 Workbook        Dashboard      Tables
+
+
+Tech Stack
+
+LayerToolLanguagePythonData processingPandas, NumPyExcel outputopenpyxlFuzzy matchingdifflibEnvironmentGoogle Colab / JupyterData sourcesWise Waste MIS exports (CSV)
+
+
+How to Run (any notebook)
+
+
+Click the Open in Colab badge on the notebook you want
+Run all cells top to bottom
+Upload your cleaned CSV when prompted
+Output downloads automatically (Excel or ZIP)
