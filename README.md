@@ -168,6 +168,3 @@ Shared trip costs are split equally across all material rows belonging to the sa
 ```
 
 ---
-
-## Part of
-[Saahas Analytics Suite](../README.md) — feeds all downstream analytics notebooks.
