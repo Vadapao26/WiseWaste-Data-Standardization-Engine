@@ -21,3 +21,19 @@ Batch processing — upload multiple CSVs at once; each detected, cleaned, and b
 Supported datasets:
 
 DatasetDetected byKey derived columnsInwardinward in filename or Inward Code columnAccepted Quantity, Value of Accepted Material, Net Procurement CostOutwardoutward in filename or Outward Code columnAccepted Quantity, Value of Accepted Material, Net Material Sales Cost, Total Incentive CostProductionproduction in filename or Production Code columnStandardization + forward-fill only
+
+
+Raw MIS Export (CSV)
+        ↓
+  Data Cleaning Pipeline       ← run first, always
+        ↓
+  cleaned_datasets.zip
+        ↓
+  ┌─────────────────────────────────┐
+  │                                 │
+  ↓                 ↓              ↓
+Inward          Outward       Production
+Analytics       Analytics      Analytics
+  ↓                 ↓              ↓
+Excel           Excel (.xlsx)  Inline
+Workbook        Dashboard      Tables
